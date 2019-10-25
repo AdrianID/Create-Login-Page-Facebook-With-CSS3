@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- icon  -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>Facebook - Masuk atau Daftar</title>
+</head>
+
+<body>
+
+    <div class="container header">
+        <div class="mobile-icon">
+            <a href="">
+                <i class="logos"></i>
+            </a>
+        </div>
+        <div class="clear-fix">
+            <div class="icon-header">
+                <a href="index.html">
+                    <i class="logos"></i>
+                </a>
+            </div>
+            <div class="login-form">
+                <table cellspacing="0" role="presentation">
+                    <tbody>
+                        <tr>
+                            <td class="input">
+                                <label>Email atau Telepone</label>
+                            </td>
+                            <td class="input">
+                                <label>Kata Sandi</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" class="input-control" />
+                            </td>
+                            <td>
+                                <input type="password" class="input-control" />
+                            </td>
+                            <td>
+                                <label class="ui-button">
+                                    <input type="submit" value="Masuk" class="button-input">
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="lupa-akun"><a>Lupa akun?</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-banner">
+        <div class="icon">
+            <li class="icon-banner icon-header"></li>
+        </div>
+
+        <p class="text-banner">Pasang Facebook untuk Android dan buka lebih cepat.</p>
+    </div>
+    <div class="container main">
+        <div class="mobile">
+            <form class="mobile-form">
+                <input type="text" placeholder="Nomor ponsel atau email">
+                <input type="password" placeholder="Kata sandi">
+                <button type="submit" class="btn-login-mobile">Masuk</button>
+            </form>
+            <div class="atau">
+                <span>Atau</span>
+            </div>
+            <button class="btn-daftar-mobile">Buat akun baru</button>
+            <div class="cs">
+
+                <p><a href="">Lupa kata sandi?</a> · <a href="">Pusat bantuan</a></p>
+            </div>
+        </div>
+        <div class="clear-fix">
+            <div class="left-bar">
+                <p class="text-title">Facebook membantu Anda terhubung dan <br>berbagi dengan orang-orang dalam
+                    kehidupan
+                    Anda.</p>
+                <img src="assets/images/Regist-icon.pg" alt="Ini gambar" class="img-fluid">
+            </div>
+            <div class="regist">
+                <p class="text-title">Buat Akun Baru</p>
+                <p class="subtitle">Ini cepat dan mudah.</p>
+                <form action="">
+                    <div class="name">
+                        <input type="text" placeholder="Nama Depan" class="input">
+                        <input type="text" placeholder="Nama Belakang" class="input">
+                    </div>
+                    <input type="text" placeholder="Nomor seluler atau email" class="input">
+                    <input type="password" placeholder="Kata sandi baru" class="input">
+                    <p class="label-form">Tanggal Lahir</p>
+                    <div class="form-inputan">
+                        <select title="tanggal" data-type="selectors" class="select">
+                            <option value="0">Tanggal</option>
+                            <script language="javascript" type="text/javascript">
+                                for (var d = 1; d <= 31; d++) {
+                                    document.write("<option>" + d + "</option>");
+                                }
+                            </script>
+                        </select>
+                        <select title="tanggal" data-type="selectors" class="select">
+                            <script text="javascript">
+                                let month = ["Bulan", "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli",
+                                    "Agustus", "September", "Agustus", "November", "Desember"
+                                ]
+                                for (var f = 0; f < month.length; f++) {
+                                    document.write("<option>" + month[f] + "</option>")
+                                }
+                            </script>
+                        </select>
+                        <select title="tanggal" data-type="selectors" class="select">
+                            <option value="0">Tahun</option>
+                            <script language="javascript" type="text/javascript">
+                                for (var g = 2019; g >= 1905; g--) {
+                                    document.write("<option>" + g + "</option>");
+                                }
+                            </script>
+                        </select>
+                    </div>
+                    <p class="label-form">Jenis Kelamin</p>
+                    <div class="form-inputan">
+                        <span class="radio-span">
+                            <input type="radio" value="1">
+                            <label>Perempuan</label>
+                        </span>
+                        <span class="radio-span">
+                            <input type="radio" value="2">
+                            <label>Laki-Laki</label>
+                        </span>
+                        <span class="radio-span">
+                            <input type="radio" value="3">
+                            <label>Khusus</label>
+                        </span>
+                    </div>
+                    <p class="cookie">Dengan mengklik Daftar, Anda menyetujui <a href="#">Ketentuan</a>, <a
+                            href="#">Kebijakan Data</a>
+                        dan <a href="#">Kebijakan</a>
+                        Cookie kami. Anda akan menerima
+                        Notifikasi SMS dari Facebook dan dapat menolaknya kapan saja.</p>
+                    <button type="submit" class="btn btn-green btn-shadow" style="
+        border-color: #3b6e22 #3b6e22 #2c5115;">Daftar</button>
+                    <hr>
+                    <p class="msg"><a href="#">Buat Halaman</a> untuk selebriti, grup musik, atau bisnis.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
